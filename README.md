@@ -12,7 +12,7 @@ There are many variations on the GoL.  This simulation will incorporate several 
 
 ### Functionality & MVP  
 
-With this Conway's Game of Life simulator, users will be able to:
+With this Mario Jump, users will be able to:
 
 - [ ] Start, pause, and reset the game board
 - [ ] Select squares to be alive in the initial state
@@ -29,7 +29,7 @@ In addition, this project will include:
 This app will consist of a single screen with game board, game controls, and nav links to the Github, my LinkedIn,
 and the About modal.  Game controls will include Start, Stop, and Reset buttons as well as a slider to control the speed.  On the left, three clickable shapes will be used to toggle between the types of grids available.  On the right, there will be three (or more) clickable gradient-filled rectangles used to toggle between color schemes (see Bonus Features).  Additionally, a drop-down will be added to the Controls to toggle between different rule sets (again, see Bonus Features).
 
-![wireframes](images/js_wireframe.jpeg)
+![wireframes]
 
 ### Architecture and Technologies
 

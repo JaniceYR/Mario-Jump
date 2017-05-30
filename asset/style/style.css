@@ -1,0 +1,76 @@
+a, abbr, acronym, address, applet, article, aside,
+audio, b, big, blockquote, body, canvas, caption,
+center, cite, code, dd, del, details, dfn, div, dl, dt,
+em, embed, fieldset, figcaption, figure, footer, form,
+h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe,
+img, ins, kbd, label, legend, li, mark, menu, nav, object,
+ol, output, p, pre, q, ruby, s, samp, section, small, span,
+strike, strong, sub, summary, sup, table, tbody, td, tfoot,
+th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  outline: 0;
+}
+
+body {
+  background-color: black;
+  font-family: 'Press Start 2P', cursive;
+  /*font-family: 'Bungee', cursive;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Londrina Outline', cursive;*/
+  color: white;
+}
+
+.main-frame {
+  width: 860px;
+  height: 650px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.mario-jump-frame {
+  width: 400px;
+  height: 570px;
+  margin: 40px;
+}
+
+.mario-jump-frame > figure {
+  width: 335px;
+  height: 500px;
+  background-image: url("../images/frame.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+  z-index: 5;
+  position: relative;
+}
+
+#mario-jump-canvas {
+  width: 325px;
+  height: 490px;
+  background-color: black;
+  z-index: 4;
+  position: relative;
+  left: 35px;
+  top: -526px;
+}
+
+.information-frame {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.information-frame > div > h2 {
+  font-size: 12pt;
+  line-height: 3;
+}
+.information-frame > div > h3 {
+  font-size: 10pt;
+  line-height: 2;
+}

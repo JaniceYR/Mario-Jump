@@ -17,10 +17,10 @@ th, thead, time, tr, tt, u, ul, var, video {
 
 body {
   background-color: black;
-  font-family: 'Press Start 2P', cursive;
-  /*font-family: 'Bungee', cursive;
-  font-family: 'Bungee Shade', cursive;
-  font-family: 'Londrina Outline', cursive;*/
+  font-family: 'Press Start 2P';
+  /*font-family: 'Bungee', cursive;*/
+  /*font-family: 'Bungee Shade', cursive;*/
+  /*font-family: 'Londrina Outline', cursive;*/
   color: white;
 }
 
@@ -52,11 +52,12 @@ body {
 #mario-jump-canvas {
   width: 325px;
   height: 490px;
-  background-color: black;
   z-index: 4;
   position: relative;
   left: 35px;
   top: -526px;
+  /*border: 1px solid black;*/
+  /*background-color: black;*/
 }
 
 .information-frame {

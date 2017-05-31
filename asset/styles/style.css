@@ -20,7 +20,6 @@ body {
   font-family: 'Press Start 2P';
   /*font-family: 'Bungee', cursive;*/
   /*font-family: 'Bungee Shade', cursive;*/
-  /*font-family: 'Londrina Outline', cursive;*/
   color: white;
 }
 
@@ -45,7 +44,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   padding: 30px;
-  z-index: 5;
+  z-index: 10;
   position: relative;
 }
 
@@ -90,4 +89,23 @@ body {
 #img-mario-jump-left {
   width: 30px;
   height: 30px;
+}
+#game-default-page {
+  width: 325px;
+  height: 490px;
+  z-index: 1;
+  position: relative;
+  left: 35px;
+  top: -1015px;
+  display: flex;
+}
+#press-enter-key {
+  width: 80%;
+  margin: 150px auto;
+  text-align: center;
+  font-size: 25pt;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  /*font-family: 'Press Start 2P';*/
+  /*font-family: 'Bungee', cursive;*/
 }

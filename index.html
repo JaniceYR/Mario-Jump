@@ -4,15 +4,18 @@
     <script type="application/javascript" src="./lib/bundle.js"></script>
     <link rel="stylesheet" type="text/css" href="./asset/styles/style.css">
     <link rel='shortcut icon' type='image/x-icon' href='./asset/images/mario_jump_right.png' />
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Londrina+Outline|Press+Start+2P" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Press+Start+2P" rel="stylesheet">
   </head>
 
   <body>
     <div class="main-frame">
       <div class="mario-jump-frame">
         <figure></figure>
-        <canvas id="mario-jump-canvas">
-        </canvas>
+        <canvas id="mario-jump-canvas"></canvas>
+        <div id="game-default-page">
+          <h2 id="press-enter-key">Press the ENTER key</h2>
+        </div>
+        <div id="game-over-page"><h1>GAME OVER</h1></div>
       </div>
 
       <div class="information-frame">
@@ -26,7 +29,6 @@
           <h3>E: JaniceYuraLee@gmail.com</h3>
         </div>
       </div>
-
     </div>
     <div class="images">
       <img src='./asset/images/mario_jump_right.png' id="img-mario-jump-right" />

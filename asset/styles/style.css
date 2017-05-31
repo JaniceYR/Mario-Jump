@@ -52,7 +52,7 @@ body {
 #mario-jump-canvas {
   width: 325px;
   height: 490px;
-  z-index: 4;
+  z-index: 0;
   position: relative;
   left: 35px;
   top: -526px;

@@ -109,3 +109,27 @@ body {
   /*font-family: 'Press Start 2P';*/
   /*font-family: 'Bungee', cursive;*/
 }
+#game-over-page {
+  width: 325px;
+  height: 490px;
+  z-index: -1;
+  position: relative;
+  left: 35px;
+  top: -1505px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+}
+#game-over-page > h1 {
+  width: 80%;
+  margin: 120px auto;
+  margin-bottom: 0;
+  font-size: 40pt;
+}
+#game-over-page > h3 {
+  width: 80%;
+  margin: 30px auto;
+  font-size: 17pt;
+}

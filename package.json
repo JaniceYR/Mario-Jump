@@ -1,0 +1,31 @@
+{
+  "name": "mario_jump",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaniceYR/Mario-Jump.git"
+  },
+  "keywords": [
+    "javascript",
+    "frontend",
+    "css",
+    "html"
+  ],
+  "author": "Janice Yura Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaniceYR/Mario-Jump/issues"
+  },
+  "homepage": "https://github.com/JaniceYR/Mario-Jump#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

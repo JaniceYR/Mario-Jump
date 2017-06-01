@@ -57,6 +57,9 @@ body {
   top: -526px;
   /*border: 1px solid black;*/
   background-color: #5D94FB;
+  color: white;
+  font-family: 'Press Start 2P';
+  font-size: 20pt;
 }
 
 .information-frame {

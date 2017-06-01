@@ -112,13 +112,29 @@ body {
   /*font-family: 'Press Start 2P';*/
   /*font-family: 'Bungee', cursive;*/
 }
+#game-score-page {
+  width: 325px;
+  height: 490px;
+  z-index: 3;
+  position: relative;
+  left: 35px;
+  top: -1505px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Press Start 2P';
+}
+#game-score-page > h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
 #game-over-page {
   width: 325px;
   height: 490px;
   z-index: -1;
   position: relative;
   left: 35px;
-  top: -1505px;
+  top: -1995px;
   display: flex;
   flex-direction: column;
   color: white;

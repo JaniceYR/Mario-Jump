@@ -115,7 +115,7 @@ body {
 #game-score-page {
   width: 325px;
   height: 490px;
-  z-index: 3;
+  z-index: -1;
   position: relative;
   left: 35px;
   top: -1505px;

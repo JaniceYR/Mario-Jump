@@ -36,7 +36,7 @@ This app will consist of a single screen with game board, game instruction, deve
 
 This project will be implemented with the following technologies:
 
-- Vanilla JavaScript and `jquery` for overall structure and game logic,
+- Vanilla JavaScript for overall structure and game logic,
 - `HTML5 Canvas` for DOM manipulation and rendering,
 - Webpack to bundle and serve up the various scripts.
 

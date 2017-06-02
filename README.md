@@ -49,7 +49,9 @@ moveMario() {
 ```
 
 ### Randomness and Probability
-```javascript
+Using `Math.random()` for generating objects(bricks, goombas, mushrooms, clouds) and setting the size and the location, Mario jump can keep its unpredictability.
+
+ ```javascript
 // game.js
 addGoombaMushroom(x, width, y) {
   let randomx = (Math.random() * (width)) + x;
@@ -63,11 +65,14 @@ addGoombaMushroom(x, width, y) {
 ```
 
 ### Garbage Collection
+After object turn to be useless, for instance, go out of sight from canvas, delete it to keep the game light.
+
 ``` javascript
 // game.js
 addBrick() {
   let oldestBrick = this.bricks[0];
-  // if objects go out of canvas, erase it to keep the game light.
+  // Check whether the object's location
+  // if it's out of sight and it's not gonna be used, delete
   if (oldestBrick.y - oldestBrick.height > Game.DIM_Y) {
     ...
     delete this.bricks.shift(); // Delete oldest brick
@@ -78,17 +83,19 @@ addBrick() {
 
 ### Object-Oriented Programming
 Implemented in OOP concept, code in Mario Jump can easily be reused and recycled.
-
-`index.html`
-lib
-  ∟ `mario_jump.js`
-  ∟ `game.js`
-  ∟ `mario.js`
-  ∟ `goomba.js`
-  ∟ `mushroom.js`
-  ∟ `brick.js`
-  ∟ `cloud.js`
-  ∟ `utils.js`
+```
+.
+│ index.html
+│ lib
+│ └─ mario_jump.js
+│ └─ game.js
+│ └─ mario.js
+│ └─ goomba.js
+│ └─ mushroom.js
+│ └─ brick.js
+│ └─ cloud.js
+│ └─ utils.js
+```
 
 ## Project Design
 Mario Jump was designed and built in 4 days.

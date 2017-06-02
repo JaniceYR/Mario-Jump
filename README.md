@@ -1,19 +1,15 @@
-## Mario Jump
+# Mario Jump
 
-### Background
+[Mario Jump](http://mariojump.herokuapp.com/) is a web application inspired by **Doodle Jump** using Mario theme. It is built using Vanilla Javascript, Canvas and HTML/CSS only.
 
-Mario Jump is a web application inspired by **Doodle Jump** built using Javascript and HTML/CSS only.
-
-Mario Jump will follow these rules:
+## Mario Jump Rules:
 1) Mario only can jump for upside, left side, right side.
-2) When Mario land the bricks, will automatically jump again.
-3) If Mario eat super Mushroom, Mario can jump farther.
+2) When Mario land over the bricks, will automatically jump again.
+3) If Mario eat super Mushroom, Mario can jump farther and get extra +20 points.
 4) If Mario hit a Goomba or fall down, Game will be over.
 
-By the end of Week 10, this app will, at a minimum, satisfy the following **Functionality & MVP**. section with smooth, bug-free navigation, adequate seed data and sufficient CSS styling:
 
-### Functionality & MVP  
-
+## Functionality & MVP  
 With this Mario Jump, users will be able to:
 
 - [ ] Start and replay the game.
@@ -26,11 +22,6 @@ In addition, this project will include:
 - [ ] An About modal describing the background and rules of the game
 - [ ] A production README
 
-### Wireframes
-
-This app will consist of a single screen with game board, game instruction, development information and nav links to its Github, my LinkedIn, Facebook and email.
-
-![wireframes](https://github.com/JaniceYR/Mario-Jump/blob/master/docs/wireframe/mario_jump_main_page.png)
 
 ### Architecture and Technologies
 
@@ -55,32 +46,18 @@ Using `Math.random()`, random amount of `Bricks` will be created.
 
 `util.js`: this script will handle the actions including jump, turn, power_up.
 
-### Implementation Timeline
+## Project Design
+Clone-Instagram was designed and built in 4 days.
+This app consists of a single screen with game board, game instruction, developer information.
+The original
 
-**Day 1**: Setup all necessary Node modules, including getting webpack up. Create `webpack.config.js` as well as `package.json`.  Write a basic entry file and the bare bones of all five scripts outlined above. Goals for the day:
+### Wireframes
 
-- Get a green bundle with `webpack`
-- Learn enough `Canvas` element
 
-**Day 2**: Create the `Mario` and `Bricks` at least they should be connected and rendered in `Board` object. Goals for the day:
+![wireframes](https://github.com/JaniceYR/Mario-Jump/blob/master/docs/wireframe/mario_jump_main_page.png)
 
-- Complete the `mario.js` module (constructor, update functions)
-- Create proper amount of `Bricks` on `Board`.
-- `Mario` can jump over the `Bricks`.
 
-**Day 3**: Create the `Goombas` and `Mushrooms` which have their own effect. Goals for the day:
-
-- Add functions on `Goombas` and `Mushrooms`.
-- `Mushrooms` can make `Mario` faster, and game should be over when `Mario` hit a `Goomba`.
-
-**Day 4**: Style the frontend, making it polished and professional.  Goals for the day:
-
-- Game start and over effect.
-- Sound effect.
-- Have a styled `Canvas`, nice looking controls and title.
-
-### Bonus features
-
+## Additional Features
 Some anticipated updates are:
-- [ ] Display user's high score
-- [ ] Display All users' top 10 high score
+* Display user's high score
+* Display All users' top 10 high score

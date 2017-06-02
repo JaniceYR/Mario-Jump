@@ -25,9 +25,9 @@ body {
 }
 
 .main-frame {
-  width: 860px;
+  width: 880px;
   height: 650px;
-  margin: 40px auto;
+  margin: 35px auto;
   display: flex;
   flex-direction: row;
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .information-frame {
-  margin: 40px 0;
+  margin: 35px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -90,6 +90,27 @@ body {
   left: -45px;
   top: 0px;
   visibility: hidden;
+}
+.how-to-play-frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-to-play-frame > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.how-to-play-frame > div >img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.developer-info-frame > img{
+  width: 30px;
+  height: 30px;
 }
 
 .images {
@@ -180,6 +201,7 @@ body {
   height: 20px;
   display: inline-block;
 }
+
 .game-mute {
   width: 80px;
   margin-right: 10px;
@@ -199,6 +221,7 @@ body {
   font-family: 'Bungee Shade', cursive;
   text-align: center;
 }
+
 #game-over-page > h1 {
   width: 80%;
   margin: 120px auto;

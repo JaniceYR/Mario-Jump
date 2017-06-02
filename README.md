@@ -10,52 +10,27 @@
 
 
 ## Functionality & MVP  
-With this Mario Jump, users will be able to:
 
-- [ ] Start and replay the game.
-- [ ] Jump and go left or right until users hit the goomba or fall down.
-- [ ] Mute the sound (BGM and sound effect for game start, jump, upgrade, and game over).
-- [ ] Check their score.
-
-In addition, this project will include:
-
-- [ ] An About modal describing the background and rules of the game
-- [ ] A production README
 
 
 ### Architecture and Technologies
 
-This project will be implemented with the following technologies:
-
-- Vanilla JavaScript for overall structure and game logic,
-- `HTML5 Canvas` for DOM manipulation and rendering,
-- Webpack to bundle and serve up the various scripts.
-
-In addition to the webpack entry file, there will be five scripts involved in this project:
-
-`board.js`: this script will handle the main logic including game start and game over functions and creating objects.
-
-`mario.js`: this script will handle creating `Mario` object.
-
-`bricks.js`: this script will handle creating `bricks` objects. `Bricks` length will be various.
-Using `Math.random()`, random amount of `Bricks` will be created.
-
-`goomba.js`: this script will handle creating `Goomba` objects.
-
-`mushroom.js`: this script will handle creating `Mushroom` objects.
-
-`util.js`: this script will handle the actions including jump, turn, power_up.
 
 ## Project Design
 Clone-Instagram was designed and built in 4 days.
 This app consists of a single screen with game board, game instruction, developer information.
 The original
+[proposal](https://github.com/JaniceYR/Mario-Jump/blob/master/docs/README.md) included:
+* Functionality & MVP
+* Architecture and Technologies
+* Implementation Timeline
+* [Wireframe](https://github.com/JaniceYR/Mario-Jump/blob/master/docs/wireframe/mario_jump_main_page.png)
 
-### Wireframes
-
-
-![wireframes](https://github.com/JaniceYR/Mario-Jump/blob/master/docs/wireframe/mario_jump_main_page.png)
-
+## Technologies
+### Frontend only
+* Vanilla `Javascript`
+* `CSS`
+* `HTML5`/`Canvas`
 
 ## Additional Features
 Some anticipated updates are:

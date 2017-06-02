@@ -68,36 +68,53 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  font-size: 10pt;
+  line-height: 2;
 }
 
 .information-frame > div > h2 {
   font-size: 12pt;
   line-height: 3;
-}
-.information-frame > div > h3 {
-  font-size: 10pt;
-  line-height: 2;
+  margin-left: -20px;
 }
 
 .how-to-play-frame {
   display: flex;
   flex-direction: column;
 }
-
-.how-to-play-frame > div {
+.how-to-play-frame > div> div{
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 8px;
 }
-.how-to-play-frame > div >img{
+.how-to-play-frame > div> div > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80px;
+  padding: 0;
+  margin: 0;
+}
+.how-to-play-frame > div > div > div > img{
   width: 30px;
   height: 30px;
   margin-right: 10px;
   display: inline-block;
 }
-.button-mute-frame > img {
+.button-mute-frame > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-mute-frame > div > img {
   cursor: pointer;
   margin: 5px 0;
+  display: inline-block;
+}
+.button-mute-frame > div > p {
+  margin-left: -20px;
 }
 #button-mute {
   width: 30px;
@@ -107,11 +124,11 @@ body {
   width: 30px;
   height: 25px;
   position: relative;
-  left: -45px;
+  left: -29px;
   top: 0px;
   visibility: hidden;
 }
-.developer-info-frame > img{
+.developer-info-frame > a > img{
   width: 30px;
   height: 30px;
   cursor: pointer;

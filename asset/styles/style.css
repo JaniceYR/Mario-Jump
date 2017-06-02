@@ -107,10 +107,15 @@ body {
   margin-right: 10px;
   display: inline-block;
 }
-
+.button-mute-frame > img {
+  cursor: pointer;
+  margin: 5px 0;
+}
 .developer-info-frame > img{
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  margin: 5px 0;
 }
 
 .images {
